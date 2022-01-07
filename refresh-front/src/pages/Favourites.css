@@ -1,0 +1,64 @@
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.fav-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.link-card {
+  border: solid 1px grey;
+  border-radius: 6px;
+  width: 160px;
+  height: 160px;
+  margin: 25px;
+  padding: 10px;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-origin: content-box;
+  background-color: white;
+}
+
+.stpauls-card {
+  background-image: url("../img/StPaulsLogo.png");
+}
+
+.sim-card {
+  background-image: url("../img/SimLogo.png");
+}
+
+.cms-card {
+  background-image: url("../img/CmsLogo.svg");
+}
+
+.compassion-card {
+  background-image: url("../img/CompassionLogo.JPG");
+}
+
+.moore-card {
+  background-image: url("../img/MooreLogo.png");
+}
+
+.smbc-card {
+  background-image: url("../img/smbclogo.png");
+}
+
+.challies-card {
+  background-image: url("../img/ChalliesLogo.png");
+  background-color: black;
+}
+
+.afes-card {
+  background-image: url("../img/AfesLogo.png");
+  background-color: black;
+}
